@@ -25,18 +25,18 @@ nav {
 
 .logo img{
     height: 1.7rem;
-    margin: 0.5rem;
+    margin-top: 0.5rem;
     padding-left: 1.5rem;
+    align-items: baseline;
 }
 
-.home-icon {
-    font-size: 1.5rem;
-    background-color: #1f1f1f;
-    color: rgb(179, 179, 179);
+.home-icon img {
+    height: 1.7rem;
     /* padding: 8px; */
-    border-radius: 50%;
-    margin: 0 1rem;
+    padding-inline: 1.5rem;
+    margin-top:  0.5rem;
     transition: 0.2s;
+    
 }
 
 .home-icon:hover {
@@ -50,6 +50,7 @@ nav {
     align-items: center;
     height: 2.5rem;
     width: 30rem;
+    margin-top: 0.5rem;
     border-radius: 20rem;
 }
 
@@ -107,10 +108,17 @@ nav {
 }
 
 .nav-text {
-    padding: 0 0.5rem;
+    padding:0.5rem;
     font-weight: 600;
     color: rgb(179, 179, 179);
     transition: 0.1s;
+    display: flex;
+    justify-content: baseline;
+}
+.nav-text i{
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.25rem;
 }
 
 .nav-text:hover {
@@ -161,10 +169,13 @@ nav {
 .library {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     margin: 1rem 1.5rem;
 }
-
+.library img{
+    height: 1.5rem;
+    padding-left: 1.5rem;
+}
 .library p {
     font-weight: 600;
 }
