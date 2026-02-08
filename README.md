@@ -25,22 +25,7 @@ spotify-clone/
 │
 ├── index.html
 ├── style.css
-└── assets/
-
-🖥️ How to Run the Project
-
-Clone the repository or download the ZIP:
-
-git clone https://github.com/your-username/spotify-clone.git
-
-
-Open the project folder
-
-Double-click index.html
-or
-Open it using Live Server in VS Code
-
-That’s it 🎉
+└── assets
 
 📸 Screenshots
 
